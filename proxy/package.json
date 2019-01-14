@@ -1,0 +1,24 @@
+{
+  "name": "proxy",
+  "version": "1.0.0",
+  "description": "HRRPT10 FEC proxy",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gdfekaris/george-FEC-proxy.git"
+  },
+  "keywords": [
+    "FEC",
+    "proxy",
+    "HRRPT10"
+  ],
+  "author": "gdf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gdfekaris/george-FEC-proxy/issues"
+  },
+  "homepage": "https://github.com/gdfekaris/george-FEC-proxy#readme"
+}
