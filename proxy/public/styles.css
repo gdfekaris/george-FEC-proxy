@@ -1,5 +1,7 @@
 #whole-page {
   position: absolute;
+  display: block;
+  flex: auto;
   background-size: cover;
   background-color: #fffdff;
   height: 100%;
@@ -8,6 +10,7 @@
 
 #app {
   display: inline-block;
+  flex: auto;
   height: 100%;
   width: 100%;
 }
@@ -15,14 +18,16 @@
 #center-page {
   position: relative;
   display: block;
+  flex: auto;
   padding: 0%;
   margin-left: 23%;
-  margin-top: -45%;
+  margin-top: -43%;
   background-size: cover;
   background-color: #fffdff;
-  height: 100%;
+  min-height: 100%;
   width: 70%;
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 #video-module {
@@ -48,6 +53,6 @@
 }
 
 /* #george-categories-component {
-  height: 200px;
-  width: 200px;
+  height: 100%;
+  width: 100%;
 } */
